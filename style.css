@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	/*color: #000;*/
+	text-decoration: none;
+}
+h1, h2,h3,h4,h5,p,a{
+	font-family: 'Franklin Gothic';
+}
+
+
+
+
+.head-of-page{
+	background: linear-gradient(to top, white 5%, #202033 80%);
+	padding: 2% 0;
+
+}
+
+.wrap{
+	width: 80%;
+	margin: 0 auto;
+}
+.logo{
+	padding-left: 43px;
+	width: 20%;
+	position: relative;
+}
+.logo, .navigation{
+	display: inline-block;
+}
+.logo img, .logo h1, .logo p{
+	color: #fff;
+	display: inline-block;
+}
+.logo img{
+	position: absolute;
+	top: 7px;
+	left: 0;	
+	height: 40px;
+}
+.logo h1{
+	line-height: 50px;
+	font-size: 39px;
+	text-transform: capitalize;
+}
+.logo p{
+	font-size: 17px;
+	padding-left: 44px;
+}
+.navigation{
+	width: 68%;
+	margin-left: 6%;
+}
+.navigation li{
+	padding-right: 4%;	
+	line-height: 67px;
+	float: left;
+	font-size: 20px;
+}
+.navigation ul li a{
+	color: #d7d7e3;
+	text-transform: capitalize;
+	padding: 5px;
+	border-radius: 5px;
+	transition: .5s;
+}
+.navigation ul li a:hover{
+	color: #1f1f31;
+	background: #d7d7e3;
+}
+
+
+.slide{
+	margin-top: .7%;
+}
+.slide .text-block, .slide a{
+	display: inline-block;
+}
+.slide .text-block{
+	width: 49%;
+	padding-right: 3%;
+	box-sizing: border-box;
+	text-align: right;
+	float: left;
+	height: 100%;
+}
+.text-block h1{
+	font-size: 45px;
+	color: #e7e8ea;
+	padding: 10% 0 1.5% 0;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.text-block h2{
+	font-weight: 100;
+	font-size: 39px;
+	color: #d7d7e3;
+}
+.slide a{
+	width: 49%;
+}
