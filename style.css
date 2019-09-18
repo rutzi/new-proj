@@ -137,7 +137,55 @@ h1, h2,h3,h4,h5,p,a{
 	font-weight: 100;
 	font-size: 39px;
 	color: #d7d7e3;
+	margin-bottom: 15px;
+}
+.text-block p{
+	color: #fff;
+	font-size: 20px;	
+	margin-bottom: 20px;
+}
+.text-block p span{
+	width: 100%;
+  display: block;
+}
+.slide .text-block a{
+	display: inline-block;
+	border-radius: 7px;
+	width: 200px;
+	font-size: 24px;
+	color: #fff;
+	background: #255dac;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	box-shadow: 0px 55px 5px -23px black;
 }
 .slide a{
 	width: 49%;
 }
+.slick-prev{
+	left: 50px;
+	background-image: url(img/left-arrow.png);
+}
+.slick-prev:before {
+  content: '';
+}
+.slick-next{
+	background-image: url(img/right-arrow.png);
+	right: 50px;
+}
+.slick-next:before {
+  content: '';
+}
+.slick-prev, .slick-next {
+	width: 39px;
+	height: 39px;
+	z-index: 10;
+}
+.slick-prev:hover, .slick-prev:focus{
+	background-image: url(img/left-arrow.png);
+}
+.slick-next:hover, .slick-next:focus{
+	background-image: url(img/right-arrow.png);
+}
+
