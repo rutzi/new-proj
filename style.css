@@ -53,9 +53,11 @@ h1, h2,h3,h4,h5,p,a{
 
 
 .head-of-page{
-	background: linear-gradient(to top, white 5%, #202033 80%);
-	padding: 2% 0;
+	background: linear-gradient(to top, white -11%, #202033 80%);
 
+}
+body{
+	background: #e7e8ea;
 }
 
 .wrap{
@@ -113,7 +115,7 @@ h1, h2,h3,h4,h5,p,a{
 
 
 .slide{
-	margin-top: .7%;
+	margin-top: .7% ;
 }
 .slide .text-block, .slide a{
 	display: inline-block;
@@ -188,4 +190,27 @@ h1, h2,h3,h4,h5,p,a{
 .slick-next:hover, .slick-next:focus{
 	background-image: url(img/right-arrow.png);
 }
+.slide, .texr-block, .slide a{
+	outline: none;
+}
+.slick-dots{
+	display: none;
+}
 
+.our-proposition{
+	display: flex;
+	width: 80%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.card{
+	width: 20%;
+	text-align: center;
+	color: #8c8c92;
+	background: linear-gradient(to top, #e3e2e2 5%, white 80%);
+
+	border: 3px solid #fff; 
+}
+.card h3{
+	padding-top: 7px;
+}
