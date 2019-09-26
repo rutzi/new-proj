@@ -197,11 +197,14 @@ body{
 	display: none;
 }
 
+
+.wrap{
+	width: 80%;
+  margin: 0 auto;
+}
 .our-proposition{
 	display: flex;
-	width: 80%;
   justify-content: space-around;
-  margin: 0 auto;
 }
 .card{
 	width: 20%;
@@ -214,3 +217,16 @@ body{
 .card h3{
 	padding-top: 7px;
 }
+
+
+.inform-block{
+	display: flex;
+	justify-content: space-around;
+}
+.inform-block div{
+	
+}
+.head-of-block img,.head-of-block h3, .head-of-block p {
+	display: inline-block;
+}
+
