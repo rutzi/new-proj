@@ -150,18 +150,20 @@ body{
 	width: 100%;
   display: block;
 }
-.slider1 .slide .text-block a{
+.btn{
 	display: inline-block;
     border-radius: 7px;
-    width: 200px;
     font-size: 24px;
     color: #fff;
-    background: #255dac;
+    background: linear-gradient(to top, #255dac 40%, #2D6BC2 80%);;
     text-align: center;
     height: 50px;
     line-height: 50px;
     position: relative;
     z-index: 10;
+}
+.slider1 .slide .text-block a{
+    width: 200px;
 	/*box-shadow: 0px 55px 5px -23px black;*/
 }
 .slider1 .slide .text-block a:after {
@@ -223,7 +225,6 @@ body{
 	text-align: center;
 	color: #8c8c92;
 	background: linear-gradient(to top, #e3e2e2 5%, white 80%);
-
 	border: 3px solid #fff; 
 }
 .card h3{
@@ -239,6 +240,9 @@ body{
 .inf-text-block{
 	width: 30%;
 	text-align: justify ;
+}
+.inf-text-block > p{
+	color: #505050;
 }
 .head-of-block img,.head-of-block h3, .head-of-block p {
 	display: inline-block;
@@ -298,3 +302,99 @@ body{
 .sliders .slick-next:hover, .slick-next:focus{
 	background-image: none;
 }
+
+
+
+
+.product{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.product h1{
+	flex-basis: 100%;
+	width: 100%;
+	font-size: 27px;
+	color: #505050;
+	text-align: center;
+	position: relative;
+}
+
+.left-block{
+	width: 40%;
+	flex-basis: 40%;
+}
+.right-block{
+	width: 57%;
+	box-sizing: border-box;
+	padding: 4% 0 0 3%;
+	flex-basis: 57%;
+}
+.right-block > a{
+	display: inline-block;
+	width: 30%;
+	height: 40px;
+	font-size: 19px;
+	line-height: 40px;
+	margin: 3% 7% 7% 0;
+}
+.product h1::after{
+	content: 'Lorem ipsum simply dummy';
+	position: absolute;
+	top: 30px;
+	left: 40%;
+	transform: translateX(-62%);
+	color: #5f7390;
+	font-size: 15px;
+}
+.prod ul{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	height: 170px;
+}
+.prod ul a{
+	position: relative;
+	color: #828181;
+	font-size: 15px;
+}
+.prod ul a::before{
+	content: url(img/productBullet.png);
+	position: absolute;
+	top: 0;
+	left: -30px;
+}
+
+
+
+
+
+.news-acordion{
+	margin-bottom: 20px;
+}
+.news-acordion ul li{
+	padding: 7px 0;
+	position: relative;
+	border-bottom: 1px solid #d7d8da;
+}
+.news-acordion ul li::first-child{
+	border-top : 1px solid #d7d8da;
+}
+.news-acordion ul li h2{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.news-acordion ul li p{
+	transition: .5s;
+	color: transparent;
+	transform: translateY(-100%);
+}
+.news-acordion ul li:hover{
+	height: 50px;
+}
+.news-acordion ul li:hover p{
+	color: black;
+	transform: translateY(100%);
+}	
