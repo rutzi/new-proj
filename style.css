@@ -372,6 +372,9 @@ body{
 .news-acordion{
 	margin-bottom: 20px;
 }
+.news-acordion *{
+	cursor: default;
+}
 .news-acordion ul li{
 	padding: 7px 0;
 	border-bottom: 1px solid #d7d8da;
@@ -434,4 +437,141 @@ body{
 	opacity: 0;
 	display: block;
 	margin-top: 9px;
+}
+
+
+
+
+footer{
+	background: radial-gradient(400px 600px, #515165, #363648);
+}
+.twitts-block{
+	border-bottom: 1px solid #515164;
+	padding: 15px 0;
+}
+.twitts-block a, .twitt-text{
+	display: inline-block;
+}
+.twitts-block a{
+	float: left;
+}
+.twitt-text{
+	width: 85%;
+}
+.twitts-block p{
+	padding-left: 7%;
+	line-height: 30px;
+	color: #a1a1ab;
+}
+.twitts-block p:last-child{
+	font-style: italic;
+	text-align: right;
+	color: #b5b5bd;
+	padding-right: 10%;
+}
+
+
+
+.feedback{
+	position: relative;
+}
+.feedback input{
+	background: #242439;
+	border-radius: 7px;
+	border-top: 1px solid #12121d;
+	border-left: 1px solid #12121d;
+	border-right: 1px solid #4e4e5d;
+	border-bottom: 1px solid #4e4e5d;
+	padding-left: 5px;
+	color: #a1a1ab;
+}
+.feedback input:focus{
+	outline: 1px solid transparent;
+}
+.feedback button{
+	height: 27px;
+	border-radius: 7px;
+	border: 1px solid #e7e8ea;
+	width: 87px;
+	background: #e7e8ea;
+	margin-left: 10px;
+	color: #363648;
+}
+.feedback h1{
+	font-size: 25px;
+	color: #fff;
+	padding: 2% 0;
+}
+.feedback p{
+	
+	color: #a6a6ae;
+}
+.newsletter input{
+	height: 27px;
+}
+.newsletter p{
+	padding-bottom: 3%;
+}
+.newsletter, .contact-form{
+	display: inline-block;
+	max-width: 49%;
+}
+.soc-connect a{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	margin: 15px 7px;
+}
+.soc-connect a:first-child{
+	margin-left: 0;
+}
+.soc-connect a img{
+	width: 100%;
+}
+.contact-form{
+	float: right;
+}
+.left-block-contact, .right-block-contact{
+	display: inline-block;
+}
+.left-block-contact{
+	width: 50%;
+}
+.left-block-contact input{
+	width: 100%;
+	height: 24px;
+	margin-bottom: 7px; 
+}
+.right-block-contact{
+	width: 49%;
+    height: 93px;
+    float: right;
+}
+.right-block-contact textarea{
+	width: 93%;
+    height: 100%;
+    float: right;
+    text-align: start;
+    background: #242439;
+	border-radius: 7px;
+	border-top: 1px solid #12121d;
+	border-left: 1px solid #12121d;
+	border-right: 1px solid #4e4e5d;
+	border-bottom: 1px solid #4e4e5d;
+	padding-left: 5px;
+	color: #a1a1ab;
+}
+.right-block-contact textarea:focus{
+	outline: 1px solid transparent;
+}
+.contact-form button{
+	float: right;
+	margin-top: 10px;
+}
+.copyright{
+	position: absolute;
+	bottom: 20px;
+	font-size: 13px;
+	width: 100%;
+	text-align: center;
 }
